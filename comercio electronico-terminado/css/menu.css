@@ -1,0 +1,202 @@
+*{
+margin:0px;
+padding:0px;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}	
+body{
+	font-family:'Open Sans';
+	font-size:14px;							   
+	background:#ECECEC;
+	}
+
+						div#vacio{
+						margin:0;
+							width:100%;
+							position:fixed;
+							max-width:100%;
+							
+							
+					}
+					.logo{
+						margin:auto;
+						width:100%;
+						max-width:100%;
+						
+					}
+
+					div#body{
+						margin:auto;
+						width:900px;
+						background-color:white;
+						text-align:justify;
+						padding:20px;
+					}
+					
+								   .barra {	
+									width:100%;
+									max-width:1000px;
+									 margin:auto;
+								   }
+								   .barra nav{
+								   width:90%;
+								   max-width:1100px;
+								   background: #2D3447;
+								  /*para que este pegado al inicio margin:40px auto;*/
+								   -webkit-box-shadow: 12px 11px 19px -3px rgba(0,0,0,0.75);
+								   -moz-box-shadow: 12px 11px 19px -3px rgba(0,0,0,0.75);
+								    box-shadow: 12px 11px 19px -3px rgba(0,0,0,0.75);
+								   }
+								   
+								   .barra nav ul{
+									   list-style:none;
+									   position: relative;
+									   
+								   }
+								   .barra nav > ul > li{
+									  display: inline-block;
+								   }
+								   .barra nav > ul > li > a{
+									  color:#fff;
+									  text-decoration: none;
+									  display: block;
+									  padding: 20px;
+									}
+									 .barra nav > ul > li > a span{
+										 font-size: 20px;
+										 position: absolute;
+										 bottom: -4px;
+										 display: none;
+									 }
+									 .barra nav > ul > li:hover  span{
+											display: block;
+									 }
+									  .barra nav li a {
+										background-color:#2D3447;
+										color:#fff;
+										text-decoration:none;
+										padding:10px 12px;
+										display:block;
+								
+									  }
+									  .barra nav li a:hover {
+										background-color:#BFC9CA;
+										   }
+   
+									  .barra nav li ul {
+										display:none;
+										position:absolute;
+										min-width:140px;
+										margin: 5px 0;
+									   }
+								   
+     								  .barra nav li:hover > ul {
+										display:block;
+									   }
+   
+									   .barra nav li ul li {
+										position:relative;
+									   }
+									   
+									   .barra nav li ul li ul {
+										right:-140px;
+										top:0;
+									   }
+									 
+									   
+									   
+									   .ir-arriba {
+										   display:none;
+										   padding:20px;
+										   background:#024859;
+										   font-size:20px;
+										   color:#fff;
+										   cursor:pointer;
+										   position:fixed;
+										   bottom:20px;
+										   right:20px;
+									   }
+									
+									.social{
+										position:fixed;
+										left:0;
+										top:200px;
+										z-index:2000;
+										
+									}
+
+									.social{
+										list-style:none;
+										background-image:#fff;
+									}
+
+									.social ul li a{
+										
+										display:inline-block;
+										background:#fff;
+										padding:10px 15px;
+										text-decoration:none;
+										-webkit-transition: all 500ms ease;
+										-o-transition:all 500ms ease;
+										transition:all 500ms ease;
+									}
+
+									.social ul li .icon-facebook{background:#3b5998; color:#fff;}
+									.social ul li .icon-twitter{background:#00aced; color:#fff;}
+									.social ul li .icon-github{background:#FFF2AF; color:#BD5E5E;}
+									.social ul li .icon-youtube-play{background:#d71e17; color:#fff;}	
+
+									.social ul li a:hover{
+										padding:10px 30px;
+										background:#CFCECE;
+									} 
+									
+								
+							/*colocar banners
+							.banner{
+										margin:auto;
+										width:900px;
+										max-width:100%;
+										
+										height:300px;
+										border:none;
+										
+										max-width:100%;
+										padding:20px;
+										
+										
+										
+										background-image:url("http://1.bp.blogspot.com/-M1TM466oJOo/VbKQJdNi85I/AAAAAAAAACg/p4aJzd-zIAg/s1600/redesecommerce.png");
+										background-size:100% 100%;
+										
+										animation-name:banner;
+										animation-duration: 10s;
+										animation-iteration-count: infinite;
+										
+										animation: banner 10s infinite;
+									}
+										@keyframes banner {
+											0%, 30% {
+												background-image:url(http://rauda.mx/inicio/wp-content/uploads/2014/05/Rauda_Comercio-Electr%C3%B3nico1.png);
+												opacity:1;
+											}
+											
+											31,34{
+												opacity:0.1;
+										}
+											35%, 65%{
+												background-image:url(http://bcsconsultoresdenegocio.com/wp-content/uploads/2015/01/commerce.png);
+												opacity:1;
+											}
+											66%,69%{
+												opacity:0.1
+											}
+											70%, 100%{
+												opacity:1;
+												background-image:url(http://www.comercioelectronico.com.uy/artworks/artworks_default13_comercioelectronico/logo.png);
+											}
+										}
+										*/
+										
+										
